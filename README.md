@@ -37,7 +37,7 @@ The idea behind the triple-barrier method is that we have three barriers: an upp
 # How to use the checker script ?
 
 <br>
-1. Create a simple dataframe with ohlcv and labels(assuming the labels are from your own trading bot)
+1. Create a "product.csv" with ohlcv and labels(assuming the labels are from your own trading bot)
 
 ```
 Open,High,Low,Close,Volume,labels
