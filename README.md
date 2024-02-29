@@ -20,9 +20,10 @@ The idea behind the triple-barrier method is that we have three barriers: an upp
 <br>
 
 1. Install all the required packages and import them in python
-2. Convert your own dataset to parquet format(Saves time and is more space-efficient)
-3. Run labeller-slow  through backtesting.py(This will give more insight but takes a long time
-4. Run labeller-fast for fast coversion of dataset into labels
+2. Convert your own dataset to parquet format (Saves time and is more space-efficient)
+3. Change the path in the labeller script to your own dataset
+4. Run labeller-slow  through backtesting.py (This will give more insight but takes a long time)
+5. Run labeller-fast for fast coversion of dataset into labels
 
 <br>
 <br>
@@ -59,8 +60,32 @@ labels.value_counts().plot.bar()
 <br>
 
 <div align="center">
-<img hight="300" width="700" alt="PNG" align="center" src="https://github.com/bhavithran1/bhavithran1/blob/main/assets/labels.png">
+<img hight="300" width="500" alt="PNG" align="center" src="https://github.com/bhavithran1/bhavithran1/blob/main/assets/labels.png">
 </div>
+
+<br>
+
+3. Run the backtest function to get the metrics spreadsheet and you can easily evaluate your trading bot's performance
+<br>
+
+<div align="center">
+<img hight="300" width="300" alt="PNG" align="center" src="https://github.com/bhavithran1/bhavithran1/blob/main/assets/backtest.png">
+</div>
+
+<br>
+<br>
+
+## Dependencies
+
+- `pandas`
+- `backtesting.py`
+- `numpy`
+
+<br>
+<br>
+<br>
+
+
 
 
 
